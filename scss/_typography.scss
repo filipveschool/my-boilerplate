@@ -1,0 +1,84 @@
+/* =================== */
+/* Main typography     */
+/* =================== */
+html {
+	font-size:12px; /* Baseline step */
+	-webkit-text-size-adjust: 100%;
+}
+body, 
+p, 
+.default {
+	font-size:1.36rem; /* ~16.32px */
+	font-weight:400;
+	line-height:2rem; /* 24px,  ~1.47em */
+	font-family:"Roboto","Arial",sans-serif;
+	color:#333;
+}
+p, 
+ul, 
+ol {
+	padding-top:.46rem;
+	padding-bottom:.54rem;
+}
+
+/* ================ */
+/* Paragraph styles */
+/* ================ */
+
+/* Headlines */
+.h1,
+.h2,
+.h3,
+.h4, 
+h1,
+h2,
+h3,
+h4 {
+	color:#111;
+}
+.h1, 
+h1 {
+	font-size:2.82rem;
+	font-weight:700;
+	line-height:3rem;
+	padding-top:.52rem;
+	padding-bottom:.48rem;
+	text-align:center;
+}
+h1.chr-bold, 
+.h1.chr-bold{
+	padding-top:.4rem;
+	padding-bottom:.6rem;
+}
+.h2, 
+h2 {
+	font-size: 2.34rem;
+	font-weight: 500;
+	padding-top:1.08rem;
+	padding-bottom:.92rem; 
+}
+.h3, 
+h3 {
+	font-size:2rem;
+	font-weight:500;
+	padding-top: .24rem;
+	padding-bottom: .76rem;
+	margin-top:2rem;
+}
+.h4, 
+h4 {
+	font-size:2rem;
+	font-weight:300;
+	padding-top: .26rem;
+	padding-bottom: .76rem;
+	margin-top:1rem;
+}
+
+/* # Mobile view # */
+
+
+/* Decoration styles */
+
+
+/* Other styles */
+
