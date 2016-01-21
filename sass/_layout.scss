@@ -1,0 +1,25 @@
+// PAGE LAYOUT
+// Top-line
+// ==================
+
+// Header
+// ==================
+
+// Footer
+// ==================
+
+// example
+.wrap{
+	@include container(); 
+}
+
+.content {
+	@include span(8); 
+	@include rhythm(3, 1, 0, 2);
+}
+
+.sidebar {
+	@include span(4 last); 
+	@include leading-border(1px, .5);
+	@include trailing-border(1px, .5);
+}

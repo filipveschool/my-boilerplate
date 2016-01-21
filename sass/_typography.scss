@@ -1,0 +1,58 @@
+// MAIN TYPOGRAPHY
+@import "compass/typography/vertical_rhythm";
+$base-font-size: 16px;
+$base-line-height: 6px;
+
+
+// Base styles
+// =================
+@include establish-baseline;
+
+html {
+	@include adjust-leading-to(4);
+}
+p, 
+.default {	
+	@include adjust-font-size-to(42px);
+}
+p, 
+ul, 
+ol {
+	
+}
+
+// Hadlines
+// ==================
+.h1,
+.h2,
+.h3,
+.h4, 
+h1,
+h2,
+h3,
+h4 {
+	color:#111;
+}
+.h1, 
+h1 {
+	
+}
+.h2, 
+h2 {
+	
+}
+.h3, 
+h3 {
+	
+}
+.h4, 
+h4 {
+	
+}
+
+// Decoration styles
+// ==================
+
+
+// Other styles
+// ==================

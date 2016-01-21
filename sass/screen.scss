@@ -1,7 +1,9 @@
-@import "lib/normalize";
 @import "lib/reset";
+@import "lib/normalize";
 
 @import "common";
+@import "var";
+@import "grids";
 @import "typography";
 @import "layout";
 @import "main";
